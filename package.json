@@ -1,0 +1,31 @@
+{
+  "name": "discord-n8n-listener",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kemquiros/discord-n8n-listener.git"
+  },
+  "keywords": ["discord", "webhook", "n8n", "bot", "events"],
+  "author": "Kemquiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kemquiros/discord-n8n-listener/issues"
+  },
+  "homepage": "https://github.com/Kemquiros/discord-n8n-listener#readme",
+  "description": "A lightweight Discord listener that notifies when a new user joins a server.",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
