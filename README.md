@@ -48,6 +48,11 @@ cp .env.example .env
 
 # 4. Start the development server
 npm run dev
+
+# 5. Build for production
+npm run build
+npm start
+
 ```
 
 ## ☁️ Deployment on Koyeb (or similar)
