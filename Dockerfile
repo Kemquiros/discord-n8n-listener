@@ -14,5 +14,7 @@ COPY . .
 # Build TypeScript
 RUN npm run build
 
+EXPOSE 3000
+
 # Start app
 CMD ["npm", "start"]
